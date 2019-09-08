@@ -1,4 +1,4 @@
-A basic Twitter clone created in Laravel.
+A basic Twitter clone created using Laravel in Laravel Homestead.
 
 this app allows the user to:
 
