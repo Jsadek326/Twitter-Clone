@@ -60,6 +60,7 @@
 
                                 @if ($errors->has('password'))
                                     <span class="help-block">
+                                    
                                         <strong>{{ $errors->first('password') }}</strong>
                                     </span>
                                 @endif
@@ -77,6 +78,7 @@
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">
+
                                     Register
                                 </button>
                             </div>
