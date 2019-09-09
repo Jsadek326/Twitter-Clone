@@ -26,4 +26,14 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+
+    public function followers()
+    {
+        return $this->belongsToMany('App\User', 'followers', 'user_id', 'follower_user_id')->withTimestamps();
+    }
+
+    public function isFollowing(User $user)
+    {
+        return !is_null($this->following()->where('user_id', $user->id)->first());
+    }
 }

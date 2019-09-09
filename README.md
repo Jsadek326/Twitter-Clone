@@ -1,11 +1,13 @@
 A basic Twitter clone created using Laravel in Laravel Homestead.
 
-this app allows the user to:
+this app currently allows the user to:
+    Login/Register
+    Follow/Unfollow 
+    View Followers/Folllowing
+    Edit their profile page
 
-Login/Register
-Follow/Unfollow 
-Edit their profile page
-Tweet/Retweet
-View their timeline
+still to be added:
+    Tweet/Retweet
+    View their timeline
 
 
